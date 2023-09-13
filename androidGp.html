@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geenpanion Android</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <a href="index.html" class="logo"
+          ><strong>Florina</strong> <span>Vlad</span></a
+        >
+      </header>
+
+      <section id="banner" class="style3">
+        <div class="inner">
+          <span class="image">
+            <img src="images/pic07.jpg" alt="" />
+          </span>
+          <header class="major">
+            <h1>Greenpanion</h1>
+          </header>
+          <div class="content">
+            <p>Android application for facilitating the recycling process</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one">
+          <div class="inner">
+            <header class="major">
+              <h2>Overview</h2>
+            </header>
+            <p>
+              The Android application encompasses all the available
+              functionalities of the Greenpanion project, enabling the
+              accumulation of points and the earning of rewards through
+              recycling. General project information is also found in the
+              <a
+                href="webGp.html"
+                target="_blank"
+                style="color: rgb(116, 173, 204); text-decoration: none"
+                >Greenpanion WEB App</a
+              >. <br /><br />
+              As accomplished objectives, we have the following specifications:
+              registration and authentication, user guide consultation,
+              navigation to recycling centers, viewing rewards, adding recycling
+              points, validation of acquired points, automatic email
+              notifications for rewards, displaying user rankings and review
+              through the contact form.
+            </p>
+          </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two" class="spotlights">
+          <section>
+            <a class="image">
+              <img
+                src="images/introAndroidGp.png"
+                alt=""
+                data-position="center center"
+              />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>First view</h3>
+                </header>
+                <p>
+                  The main opening screen of the application contains the
+                  options for "Authentication" and "Registration" assigned to
+                  the illustrated buttons. In accordance with the context in
+                  which the user finds themselves, they can press one of the
+                  buttons and will be redirected to the corresponding form. The
+                  login process is achieved through the verification of the
+                  backend token, utilizing the methods provided by Spring
+                  Security, thus ensuring security and authentication for users.
+                  Connection to the common server is essential, ensuring that a
+                  user has the same experience, functionality, constraints and
+                  validations on both the web application forms and the Android
+                  application.
+                </p>
+                <!-- <ul class="actions">
+												<li><a href="webImplementationGp.html" class="button">more</a></li>
+											</ul> -->
+              </div>
+            </div>
+          </section>
+          <section>
+            <a class="image">
+              <img
+                src="images/menuGp.png"
+                alt=""
+                data-position="center center"
+              />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Menu Options</h3>
+                </header>
+                <p>
+                  The first menu option is designed for familiarizing yourself
+                  with the application, containing a multi-page viewing element
+                  that can be scrolled through. Each of these pages represents
+                  the steps for using the application and helps you with
+                  recycling.<br /><br />For the second option in the main menu,
+                  'Rewards and Recycling Centers,' the user has the possibility
+                  to view and zoom in on the map provided with markers for each
+                  center. Additionally, if the user's location is entered in the
+                  first field, the desired recycling center is selected from the
+                  available list, and upon clicking the button for navigation,
+                  the user is redirected directly to the route on Google Maps.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <a class="image">
+              <img
+                src="images/addPoints.png"
+                alt="Rewards"
+                data-position="center center"
+              />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Points Statistics</h3>
+                </header>
+                <p>
+                  By choosing "My Statistics" from the main menu, the user is
+                  transferred to the Statistics screen corresponding to the
+                  first image above. Points are initialized with 0 for a new
+                  account, the application offers two ways to add points. The
+                  logic used is that the person using the application recycles
+                  to one of the vending machines, therefore receiving a QR code
+                  and a unique identification code for the materials and
+                  quantity recycled. <br /><br />
+                  The QR code scanning functionality can be accessed by clicking
+                  on the "Scan code", pressing on the side of the device turns
+                  on the flashlight for visibility. In theory, the scanner
+                  converts the QR code into transferable points directly into
+                  app.
+                  <br /><br />
+                  There is also the option to manually add points by selecting
+                  materials and their quantity, the app calculates the total and
+                  then transmits the the user to the next validation screen. In
+                  this context, the unique code returned from the automatic so
+                  that the points are saved and valid in the main Statistics
+                  screen.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <a class="image">
+              <img
+                src="images/mobileLastGp.png"
+                alt=""
+                data-position="center center"
+              />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Prizes, ranking and contact</h3>
+                </header>
+                <p>
+                  In this part, the available prizes and additional information
+                  about the scores are presented. Details are displayed by
+                  clicking on the "down arrow" button. By selecting "User
+                  Ranking" from the Main Menu you can see the descending list
+                  and the place of each user of the application in the ranking
+                  according to the number of points accumulated. As a last
+                  functionality, the user can leave a review message or
+                  questions about the application via the contact form which
+                  redirects the data entered in the email.
+                </p>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- Three -->
+        <section id="three">
+          <div class="inner">
+            <header class="major">
+              <h2>Future Development</h2>
+            </header>
+            <p>
+              A series of goals are proposed for the future in terms of creating
+              new functionalities and adjusting those already implemented to
+              optimise the user experience.
+              <li>
+                Adding a calendar to monitor the user's consistency in using app
+                and continued attendance rewarded with extra points
+              </li>
+              <li>
+                Implementation of a chat communication channel between users of
+                the same city, with the ability to add friends and create group
+                conversations
+              </li>
+              <li>
+                Development of a QR code scanning and decoding module,
+                validation and integration into the app
+              </li>
+              <li>
+                Possibility to donate own points accumulated to other users to
+                encourage team collaboration and winning
+              </li>
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <ul class="icons">
+            <!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+            <!-- <li><a href="https://www.facebook.com/florina.vlad164" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+            <li>
+              <a
+                href="https://instagram.com/florina.vlad?igshid=OGQ5ZDc2ODk2ZA=="
+                class="icon brands alt fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+            <!-- <li><a href="https://github.com/florinavlad" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li> -->
+            <li>
+              <a
+                href="https://www.linkedin.com/in/florina-niculina/"
+                class="icon brands alt fa-linkedin-in"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+          </ul>
+          <!-- <ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul> -->
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
